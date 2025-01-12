@@ -108,7 +108,7 @@ const ForgotPassword = async (req, res) => {
     // Email options
 
     const html = ForgetPasswordEmail.email(
-      "http://important-links-backend.vercel.app/auth/resetPassword",
+      "https://important-links-frontend.vercel.app/auth/resetPassword",
       tokenEmail
     );
 
